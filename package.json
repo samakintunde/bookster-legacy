@@ -1,0 +1,24 @@
+{
+  "name": "bookster",
+  "version": "1.0.0",
+  "description": "A book collection app that stores books you've read and want to read. Also fetched info from an API and shows the details of the book. ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samakintunde37/bookster.git"
+  },
+  "keywords": [
+    "book",
+    "nodejs",
+    "react",
+    "graphql",
+    "express",
+    "api",
+    "library"
+  ],
+  "author": "Samuel Akintunde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samakintunde37/bookster/issues"
+  },
+  "homepage": "https://github.com/samakintunde37/bookster#readme"
+}
