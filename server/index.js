@@ -14,7 +14,7 @@ app.use(cors());
 
 // Connect to MongoDB
 mongoose.connect(
-  "mongodb://localhost:27017/bookster",
+  "mongodb://heroku_nxcf16mt:prdt1aqqjtv4j7vkdpkr24r76o@ds147003.mlab.com:47003/heroku_nxcf16mt",
   {
     useNewUrlParser: true
   }
