@@ -2,6 +2,11 @@
   "name": "bookster",
   "version": "1.0.0",
   "description": "A book collection app that stores books you've read and want to read. Also fetched info from an API and shows the details of the book. ",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samakintunde37/bookster.git"
@@ -15,6 +20,9 @@
     "api",
     "library"
   ],
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  },
   "author": "Samuel Akintunde",
   "license": "MIT",
   "bugs": {
