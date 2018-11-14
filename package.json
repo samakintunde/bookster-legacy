@@ -4,8 +4,8 @@
   "description": "A book collection app that stores books you've read and want to read. Also fetched info from an API and shows the details of the book. ",
   "scripts": {
     "client": "npm start --prefix client",
-    "server": "npm start --prefix server",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run start\" \"npm run client\"",
+    "start": "npm start --prefix server"
   },
   "repository": {
     "type": "git",
